@@ -69,7 +69,18 @@ body {
     text-align: left;
     background-color: #fff;
 }
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
 
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 [tabindex="-1"]:focus {
     outline: 0 !important;
