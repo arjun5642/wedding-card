@@ -257,7 +257,10 @@
 </div>
 
 <div class="bottom_left">
-    <audio controls autoplay style="display:none;" src="music.mp3"></audio>
+    <iframe allow="autoplay" id="audio" style="display: none"></iframe>
+    <audio id="player" autoplay loop>
+    <source src="music.mp3" type="audio/mp3">
+</audio>
     
 </div>
 
